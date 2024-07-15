@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(/pages/contact/Img/background-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffb9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 300px;
+  }
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+.input-field {
+    margin-bottom: 15px;
+  }
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+.input-field input, .input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .input-field textarea {
+    height: 100px;
+    resize: none;
+  }
+
+button-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+button-1:hover {
+    background-color: #610d0d;
+  }
+
+.contact-info {
+    margin-bottom: 15px;
+  }
+
+.contact-info i {
+    margin-right: 10px;
+  }
+
+.contact-info span {
+    font-weight: bold;
+  }
+
+.contact-info a {
+    color: #3977b9;
+    text-decoration: none;
+  }
+
+.contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  .social-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .facebook {
+    background-color: #3b5998;
+  }
+  .instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  }
+  .social-button:hover {
+    opacity: 0.8;
+  }
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .left, .right {
+      min-width: 100%;
+    }
+  }
