@@ -8,7 +8,7 @@ body {
     text-align: center;
     min-height: 100vh;
     margin: 0;
-    background-image: url(/pages/projects/img/background-project.gif);
+    background-image: url(../../projects/img/background-project.gif);
     background-size: cover;
     background-repeat: no-repeat;
 }
