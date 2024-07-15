@@ -160,4 +160,4 @@ WD-Hands-On-2
 | W3schools | html and css codes | https://www.w3schools.com/ |
 | Google | images, and backgrounds. | https://www.google.com/ |
 | Youtube | How to | https://www.youtube.com/ |
-| Deployment Link | Published site link |  |
+| Deployment Link | Published site link |  https://itsnotmike369.github.io/WD-Finals/|
