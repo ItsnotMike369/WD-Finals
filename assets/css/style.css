@@ -1,0 +1,145 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assets/Img/background-home.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.glass-container {
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.main-content-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.col-left span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.col-left h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #050505;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+
+.col-left p {
+    width: 85%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    color: #000000;
+    margin-bottom: 20px;
+    letter-spacing: 0.01em;
+}
+
+.col-right img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.experience-section {
+    width: 100%;
+    padding: 40px 40px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(42px);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.experience-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-inner .col {
+    flex: 1;
+    max-width: 250px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.experience-inner .col h3 {
+    font-size: 25px;
+    color: #292423;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.experience-inner .col p {
+    font-size: 16px;
+    color: #292423;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+    .main-content-wrapper {
+        margin-top: 50px;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .col-left {
+        margin-top: 50px;
+    }
+    .col-left span {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .col-left h1 {
+        font-size: 30px;
+    }
+    .col-left p {
+        width: 100%;
+    }
+    .experience-section {
+        padding: 20px;
+    }
+    .experience-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience-inner .col {
+        max-width: none;
+        width: 100%;
+        padding: 15px 0;
+        margin-bottom: 10px;
+    }
+}
